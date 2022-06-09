@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(bg.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container {
+    width: 350px;
+    min-height: 150px;
+    background: transparent;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-70%);
+    -webkit-transform: translate(-50%,-70%);
+    -moz-transform: translate(-50%,-70%);
+    -ms-transform: translate(-50%,-70%);
+    -o-transform: translate(-50%,-70%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container h1 {
+    font-size: 35px;
+    margin-bottom: 50px;
+    border-bottom: 4px solid rgb(0, 128, 43);
+}
+
+.container .text {
+    width: 80%;
+    margin-bottom: 15px;
+    border-bottom: 1px solid rgb(0, 128, 43);
+}
+
+.container .text input {
+    width: 100%;
+    font-size: 14px;
+    padding: 5px 10px;
+    outline: none;
+    border: none;
+    background: none;
+    color: white;
+}
+
+#son {
+    margin-bottom: 30px;
+}
+
+.container .label {
+    width: 70%;
+    margin-bottom: 30px;
+}
+
+.container .label label span,.container .label label input {
+    cursor: pointer;
+}
+
+.container button {
+    width: 70%;
+    padding: 8px 10px;
+    transition: 0.5s;
+    border-radius: 5px;
+    font-size: 14px;
+    outline: none;
+    border: 1px solid rgb(0, 128, 43);
+    background: none;
+    background: white;
+    color: rgb(0, 128, 43);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.container button:hover {
+    background: rgb(0, 128, 43);
+    color: white;
+}
